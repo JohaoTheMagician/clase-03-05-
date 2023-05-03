@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    font-family: 'Bruno Ace SC', cursive;
+    
+}
+
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(rgb(243, 0, 0), rgb(0, 252, 0), rgb(134, 221, 21), alpha);
+
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.show{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 1rem;
+
+}
+
+.btn{
+    padding: 20px;
+letter-spacing: 12px;
+cursor: pointer;
+border-radius: 30px;
+}
+
